@@ -1,0 +1,96 @@
+p{
+    font-size: 20px;
+}
+*{
+ font-family: Arial, Verdana;
+}
+#parrafo1{
+    color: red;
+    border: 3px solid green;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 15px;
+ 
+}
+table, th, td{
+    border:double 2px;
+    width: 100%;
+    }
+th{
+    back-color: #013ADF;
+}
+td{
+   background-color: #81DAF5 
+}
+/*Clase color rojo */
+.colorrojo{
+    color: red;
+}
+header,section,aside,footer,nav,article{
+    display: block;
+}
+footer a{
+    color: yellow;
+    text-decoration: none;
+    cursor: help;
+}
+nav ul li{
+    display: inline;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px #333333;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+@font-face{
+    font-family:'Nuevafuente';
+    src: url("../Fuentes/mifuente.ttf")
+}
+h1{
+    text-shadow: #5081B2;
+}
+header h1{
+    font-family: 'Nuevafuente';
+
+}
+.seccioninterna{
+    width:100%;
+    background-color: #82B0AD;
+}
+nav ul il:hover{
+    font-weight: bold;
+}
+body{
+    text-align: center;
+}
+header{
+    background: url("../Imagene/cabecera.png");
+}
+    
+section{
+    float: left;
+    width: 70%;
+    background-color: white;
+}
+aside{
+    -webkit-transition: -webkit-transform 1s ease-in-out 2.5s;
+    float: left;
+    width:30%;
+    background-color: green; 
+}
+.botonactivo{
+    background-color: yellow;
+}
+/*diseño movil*/
+@media only screen and (max-width:300px){
+    section{
+        width: 100%;
+    }
+    aside{
+        width: 100%
+    }
+}

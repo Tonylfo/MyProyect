@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+        <meta charset="utf-8">
+        <meta name="descripcion" content="Ejemplo de HTML5">
+        <meta name="keywords" content="HTML5, CSS3, JAvascript">
+        <title> Calculadora especial Javascript</title>
+        <link rel="stylesheet" href="css/estilos.css">
+       <!--Comentarios se ponen asi-->
+        <script src="Funciones/funciones.js"></script>
+
+   </head>
+   <body>
+     <header>
+        <h1>
+            CALCULADORA
+        </h1>
+     </header>
+     <nav>
+      <ul>
+         <li onclick="suma();">Suma</li>
+         <li onclick="resta();">Resta</li>
+         <li onclick="multiplica();">Multiplica</li>
+         <li onclick="division();">División</li>
+         <li onclick="potencia();">Exponencial</li>
+         <li onclick="pares();">Pares</li>
+      </ul>
+      </nav>
+   <section>
+      <h2>Primer numero</h2>
+         <input type="number" name="n1" id="numero1">
+         <br>
+       <h2>Segundo numero</h2>
+         <input type="number" name="n2" id="numero2">
+         <br>
+       <h2>Resultado</h2>
+         <p id="resultado"></p>
+         <br>
+         
+   </section>
+     
+   </body>
+</html>

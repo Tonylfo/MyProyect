@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+        <meta charset="utf-8">
+        <meta name="descripcion" content="Ejemplo de HTML5">
+        <meta name="keywords" content="HTML5, CSS3, JAvascript">
+        <title> Academia cuenca y demas</title>
+        <link rel="stylesheet" href="css/estilos.css">
+       <!--Comentarios se ponen asi-->
+        <script src="Funciones/funciones.js"></script>
+    
+   </head>
+   <body>
+     <header>
+        <h1>
+            Este es el titulo principal de la pagina web
+        </h1>
+     </header>
+     <nav>
+      <ul>
+         <li class=botonactivo>Principal</li><!--listas-->
+         <li>fotos</li>
+         <li><a href="Video.html">videos</a></li>
+         <li> <a href="contacto.html" onclick="mensaje();" >Contacto</a></li>
+      </ul>
+      </nav>
+        <section>
+         
+        <!--arrays-->
+        
+      <p>Listado de coches: <a onclick="muestracoches();">(PULSA)</a></p>
+      <p id="listadocoches"></p>
+      
+       <p>Numero de personas: <a onclick="muestrapeso();">(PULSA)</a></p>
+      <p id="pesos"></p>
+      
+      <p>El que menos cobra es: <a onclick="datosgenerales('menoscobra');">(PULSA)</a></p>
+      <p id="menoscobra"></p>
+      
+      <p>El que mas trabaja es: <a onclick="datosgenerales('mashoras');">(PULSA)</a></p>
+      <p id="mashoras"></p>
+      
+      
+      <!--arrays-->
+    <article> <h5>Diferentes mensajes or articulos</h5></article>
+    <article> <p>Probando el comando <strong>negrita</strong>article</p></article>
+        <p class="colorrojo">Esto es un parrafo</p>
+        <p>Y este otro</p>
+        <p id="parrafo1">"Ejemplo de estilo"</p>
+        <!--ejemplo de javascript-->
+        <p onclick=concatenanombre();>Hacer Clic</p>
+        <p id="nombre">Antonio</p>
+        <p id="apellido">Morales Blanco</p>
+        <p id="nombrecompleto"></p>
+        <!--ejemplo de javascript-->
+        <img src="Imagen/Imagen1.jpg" alt="Microfono" title="Microfono de estudio" width="100%">
+       <!---- empezamos aqui a crear un formulario-->
+  
+        </section>
+ 
+      <aside>
+         <blockquote>Mensaje número uno</blockquote> <!--Mensaje-->
+         <blockquote>Mensaje número dos</blockquote>
+      <form method="post">
+         <input type="text" name="nombre" placeholder="Escribe tu nombre">
+         <br>
+         <input type="email" name="correo" placeholder="Pon tu E-mail">
+         <br>
+         <textarea name="mensaje" placeholder="Cuentanos">
+         </textarea>
+         <br>
+         <input type="submit" name="enviar">
+         
+       </form>
+      </aside>
+      <footer>
+         Desarrollado por  <a href="http://www.marca.com" target="blank">Antonio Morales
+         </a>
+         <p>Mi casa tiene 3000 m <sup>2</sup></p>
+         <p>La formula del acido sulfúrico es H<sub>2</sub>SO<sub>4</sub></p>
+        <small>Derechos Reservados &copy; 2018-2019</small>
+      </footer>
+   </body>
+</html>
